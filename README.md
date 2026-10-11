@@ -51,7 +51,7 @@ Some features depend on Telegram permissions, correct channel configuration, and
 ## Repository structure
 
 ```text
-telegram-bot/
+AMG-TelegramBot/
 ├── BOT.py                 # Main bot handlers and startup
 ├── hafez_fortunes.py      # Hafez verses and interpretations
 ├── requirements.txt       # Python dependencies
@@ -72,8 +72,8 @@ telegram-bot/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/AMG-ir/telegram-bot.git
-cd telegram-bot
+git clone https://github.com/AMG-ir/AMG-TelegramBot.git
+cd AMG-TelegramBot
 ```
 
 ### 2. Create a virtual environment
@@ -89,7 +89,7 @@ Windows PowerShell:
 
 ```powershell
 python -m venv .venv
-.venv\Scripts\Activate.ps1
+.venv\\Scripts\\Activate.ps1
 ```
 
 ### 3. Install dependencies
