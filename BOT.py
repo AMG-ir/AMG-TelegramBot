@@ -18,7 +18,7 @@ load_dotenv()
 TOKEN = os.getenv("BOT_AMG") 
 ADMIN_IDS = 6807376124
 ADMIN_ID = {6807376124} 
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
 
 
 # کانال‌های اسپانسر
